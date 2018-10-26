@@ -1,0 +1,52 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# not sure why there are here.
+pids
+logs
+results
+
+# We may want to commit node_modules to lock in dependencies in the future
+node_modules
+npm-debug.log
+
+# Typescript -> JS compiler output from /src
+lib/
+compiledClient/
+static/
+doc/
+
+# test database
+var/
+
+# temporary files during build
+tmp/
+
+# the cached css files built from less files.
+public/stylesheets/*.css
+
+#sublime user settings
+*.sublime-workspace
+
+#webpack build stats
+stats.json
+
+#passwords, etc
+secrets.js
+
+#babel cache
+.awcache/
+
+cookies
+test.json
+out.xlsx
+
+.nyc_output/
+
+coverage/

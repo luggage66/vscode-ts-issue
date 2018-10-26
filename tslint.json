@@ -1,0 +1,27 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "quotemark": [false, "single", "jsx-double", "avoid-escape"],
+        "max-classes-per-file": [false, 1],
+        "trailing-comma": [false],
+        "ordered-imports": [false],
+        "object-literal-sort-keys": false,
+        "arrow-parens": [false, "ban-single-arg-parens"],
+        "one-line": [ "check-open-brace", "check-whitespace" ],
+        "member-access": [false],
+        "max-line-length": [ false, 160 ],
+        "object-literal-key-quotes": [ true, "as-needed" ],
+        "forin": false,
+        "interface-name": [false],
+        "no-namespace": [ false ],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+        "member-ordering": [false],
+        "no-shadowed-variable": false,
+        "no-empty-interface": false,
+        "array-type": [true, "generic"],
+        "no-floating-promises": [true, "Bluebird"],
+        "no-console": {
+            "severity": "warning"
+        }
+    }
+}

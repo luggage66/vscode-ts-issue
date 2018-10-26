@@ -1,0 +1,30 @@
+{
+  "name": "ace-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "nyc": {
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "all": true
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.6.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.2"
+  }
+}

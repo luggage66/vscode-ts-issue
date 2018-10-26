@@ -1,0 +1,12 @@
+{
+    "makeSelect": {
+        "prefix": [ "makeSelect"],
+        "body": [
+            "import * as ${3:filename} from '@shared/${3:filename}';",
+            "import { makeSelectComponentForEnum } from './simpleFixedList';",
+            "export default makeSelectComponentForEnum<string>(\"${1:ObjectName}\", \"${2:placeholder}\", ${3:filename});"
+        ],
+        "description": "makeSelectComponentForEnum()",
+        "scope": "typescript"
+    }
+}

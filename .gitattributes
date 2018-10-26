@@ -1,0 +1,19 @@
+# store end of line as LF in db and checkout locally that way, too. always converts to CRLF to LF only on commit
+# we may need to loosen this if some files get mangled.
+
+* text=auto eol=lf
+
+#binary files. don't screw with line-endings
+*.gif -text
+*.otf -text
+*.png -text
+*.ttf -text
+*.woff -text
+*.jpg -text
+*.png -text
+
+bower_components/eonasdan-bootstrap-datetimepicker/src/nuget/NuGet.exe -text
+
+# make github ignore some files for it stats
+bower_components/**/* linguist-vendored
+public/**/* linguist-vendored
